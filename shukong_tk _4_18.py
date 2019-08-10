@@ -374,3 +374,4 @@ tk.Button(master=root, text="开始绘图", command=draw_whole).pack(side=tk.LEF
 tk.Button(master=root, text="清除图形", command=clear).pack(side=tk.LEFT)
 draw_coordinate()  # 绘制坐标先
 tk.mainloop()
+
