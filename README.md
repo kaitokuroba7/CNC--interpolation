@@ -23,7 +23,7 @@
 多点直线插补的数控模拟界面如图1所示。其中，蓝色线段为理想直线，红色线段为插补直线。我们输入的多段直线坐标为[(3,5),(-12,10),(-20,-13),(-6,-8),(6,-8),(19,-19),(7,15),(7,20),(-12,20),(-20,15)]。这里一共包含了10个坐标点，9段直线，既有象限与象限之间的跨越，又有水平直线与数值直线的插补，基本能够满足直线插补的所有要求。
 
 <p align="center">
-	<img src="https://github.com/kaitokuroba7/CNC--interpolation/blob/master/CNC_1.png" alt="Sample"  width="250" height="140">
+	<img src="https://github.com/kaitokuroba7/CNC--interpolation/blob/master/CNC_1.png" alt="Sample"  width="300" height="300">
 	<p align="center">
 		<em> 图1 多点直线插补演示界面</em>
 	</p>
@@ -33,7 +33,13 @@
 ----
 圆弧插补的演示界面如图2所示。图2中的蓝色圆弧为绘制的理想圆弧，红色线段为插补线段。在该例中，输入的坐标为[(-4,-3),(11,-3),(-4,12),(-19,-3),(-4,-18),(11,-3)]，即是以（-4，-3）点为圆心，四段圆弧组成的一个整圆。该例子实现了圆弧的跨象限插补，圆心坐标不在原点的插补，以及多个圆弧的拼接。相比课本中例子，该插补体现了本项目更加出色的功能。
  
-图2 圆弧插补演示界面
+ <p align="center">
+	<img src="https://github.com/kaitokuroba7/CNC--interpolation/blob/master/CNC_2.png" alt="Sample"  width="300" height="300">
+	<p align="center">
+		<em> 图2 圆弧插补演示界面</em>
+	</p>
+</p>
+
 
 4.项目未来计划
 ====
